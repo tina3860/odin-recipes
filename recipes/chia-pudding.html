@@ -4,15 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+    <!-- for optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!--for font request ^  -->
     <title>Stawberry Almond Chia Pudding</title>
 </head>
 
 <body>
-    <h1>Stawberry Almond Chia Pudding</h1>
-    <img src="../imgs/chia-pudding.webp">
+    <h1 id="pgtitle">Odin Recipes</h1>
+    <div class="header">
+        <a class="Home" href="index.html">Home</a>
+        <h1>Stawberry Almond Chia Pudding</h1>
+        <img class="chia_img" src="../imgs/chia-pudding.webp">
+    </div>
+
     <h3>Description</h3>
     <p>Quick, healthy, and declicious way to start your mornings or for a snack.</p>
-    <h3>Ingredients</h3>
+    <h3 id="ingredients">Ingredients</h3>
     <ul>
         <li>2 cups almond milk</li>
         <li>1 (16 ounce) package fresh strawberries, hulled </li>
@@ -20,7 +35,7 @@
         <li>¼ cup honey</li>
         <li>1 teaspoon vanilla extract</li>
     </ul>
-    <h3>Steps</h3>
+    <h3 id="Directions">Directions</h3>
     <ol>
         <li>Puree almond milk and strawberries in a blender until smooth; pour into a bowl. Stir chia seeds, honey, and
             vanilla extract into the strawberry puree.</li>

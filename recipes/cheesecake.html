@@ -4,17 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+    <!-- for optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!--for font request ^  -->
     <title>New York Style Cheesecake</title>
 </head>
 
 <body>
-    <h1>New York-Style Cheesecake</h1>
-    <img src="../imgs/chessecake.jpg">
+    <h1 id="pgtitle">Odin Recipes</h1>
+    <div class="header">
+        <a class="Home" href="index.html">Home</a>
+        <h1>New York-Style Cheesecake</h1>
+        <img class="cheesecake_img" src="../imgs/chessecake.jpg">
+    </div>
     <h3>Description</h3>
     <p>A larger and creamier version of a regular chessecake with additional ingredients including cream cheese and egg
         yolks.
     </p>
-    <h3>Ingredients</h3>
+    <h3 id="ingredients">Ingredients</h3>
     <ul>
         <li>18 graham crackers, crushed</li>
         <li>3 tablespoons melted butter</li>
@@ -28,7 +42,7 @@
         <li>1 teaspoon finely grated lemon zest</li>
         <li>1 teaspoon finely grated orange zest</li>
     </ul>
-    <h3>Steps</h3>
+    <h3 id="Directions">Directions</h3>
     <ol>
         <li>Preheat the oven to 350 degrees F (175 degrees C). Lightly grease the bottom and sides of a 9-inch
             springform pan.</li>
